@@ -1,0 +1,37 @@
+{
+  "noCheck": true,
+  "compilerOptions": {
+    "moduleResolution": "bundler",
+    "target": "ESNext",
+    "module": "ESNext",
+    "verbatimModuleSyntax": true,
+    "isolatedModules": true,
+    "resolveJsonModule": true,
+    "sourceMap": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "checkJs": false,
+    "allowJs": true,
+    // "baseUrl": ".",
+    // "paths": {
+    //   "~/*": [
+    //     "src/"
+    //   ],
+    //   "@routes": [
+    //     "src/routes/*"
+    //   ]
+    // }
+  },
+  /**
+   * Use global.d.ts instead of compilerOptions.types
+   * to avoid limiting type declarations.
+   */
+  "include": [
+    "src/**/*.d.ts",
+    "src/**/*.js",
+    "src/**/*.svelte",
+    "tailwind.config.js",
+    "tsconfig.js",
+    // "postcss.config.js"
+  ]
+}
