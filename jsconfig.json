@@ -12,15 +12,6 @@
     "skipLibCheck": true,
     "checkJs": false,
     "allowJs": true,
-    // "baseUrl": ".",
-    // "paths": {
-    //   "~/*": [
-    //     "src/"
-    //   ],
-    //   "@routes": [
-    //     "src/routes/*"
-    //   ]
-    // }
   },
   /**
    * Use global.d.ts instead of compilerOptions.types
@@ -32,6 +23,6 @@
     "src/**/*.svelte",
     "tailwind.config.js",
     "tsconfig.js",
-    // "postcss.config.js"
+    "postcss.config.js"
   ]
 }

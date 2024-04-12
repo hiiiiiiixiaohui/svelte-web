@@ -1,9 +1,10 @@
 /** @type {import('tailwindcss').Config} */
-module.exports = {
+export default {
     // prefix: 'tp-',
-    content: ['./src/**/*.{html,js,svelte,ts}'],
+    content: ['./index.html', './src/**/*.{html,js,svelte,ts}'],
     theme: {
         extend: {}
     },
-    plugins: []
+    plugins: [],
+    darkMode: false
 };
