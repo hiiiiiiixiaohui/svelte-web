@@ -1,11 +1,11 @@
 <script>
   import { Router, Link } from "svelte-routing";
   import RootRouter from "./RootRouter.svelte";
-  import Counter from "./lib/Counter.svelte";
 
   export let url = "";
 </script>
 
+<!-- router system -->
 <Router {url}>
   <nav>
     <Link to="/">Home</Link>

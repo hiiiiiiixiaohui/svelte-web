@@ -2,6 +2,24 @@
 
 This template should help get you started developing with Svelte in Vite.
 
+# How to start this project?
+ - Install dependencies
+```js
+    yarn install
+```
+ - Run to development env
+```js
+    yarn dev
+```
+ - Build project
+```js
+    yarn build
+```
+ - Preview to build the project
+```js
+    yarn preview
+```
+
 ## Recommended IDE Setup
 
 [VS Code](https://code.visualstudio.com/) + [Svelte](https://marketplace.visualstudio.com/items?itemName=svelte.svelte-vscode).

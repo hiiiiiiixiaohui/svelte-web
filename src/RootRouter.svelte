@@ -1,11 +1,11 @@
 <script>
     import { Router, Link, Route } from "svelte-routing";
-    import { routers } from "./routers";
+    import routes from "./autoImportRoutes";
 </script>
 
 <div>
     <Router>
-        {#each routers as { path, component }}
+        {#each routes as { path, component }}
             <Route {path} {component} />
         {/each}
     </Router>
